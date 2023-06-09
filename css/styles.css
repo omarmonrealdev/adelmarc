@@ -7,20 +7,22 @@ html {
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   height: 200vh;
 }
+
+/*Inicio Estilos barra de navegacion/header */
 
 .header {
   margin: 1rem 2rem 0;
   font-size: 0;
-  position: fixed;
 }
+
 
 .header > *, .nav-menu li {
   display: inline-block;
   vertical-align: middle;
   font-size: 1.8rem;
-  font-family: 'Roboto', sans-serif;
 }
 
 .nav-menu {
@@ -69,9 +71,145 @@ nav {
   font-weight: 500;
 }
 
+/*Fin Estilos barra de navegacion/header */
+
+/*Inicio Estilos bloque de publicidad*/
+.publicidad {
+  margin: 3rem auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.videopub {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videopub img {
+  width: 5rem;
+  margin-top: 10px;
+}
+
+.promo h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.promo p {
+  font-size: 1.6rem;
+  color: #025157;
+  font-weight: 500;
+}
+
+.promo .regalo {
+  font-weight: 600;
+}
+
+.promo input, .promo button {
+  padding: 1rem 0.5rem;
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
+
+.promo input {
+  border: 1px solid gray;
+}
+
+.promo button {
+  background: rgb(190, 73, 73);
+  color: white;
+}
+/*Final Estilos bloque de publicidad*/
+
+/*Inicio Estilos Growing*/
+.growing {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  background: #a1d683;
+  padding: 3rem 0;
+}
+
+.growdesc {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+
+.growdesc h1 {
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+.growdesc p {
+  font-size: 1.6rem;
+  color: #025157;
+  font-weight: 500;
+}
+
+.growdesc button {
+  width: 15rem;
+  background: #025157;
+  color: white;
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 3rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.growdesc img {
+  width: 80%;
+  border-radius: 1rem;
+  align-self: center;
+}
+
+
+.cliente {
+  margin-left: 3rem;
+  width: 20%;
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.cliente img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cliente h2 {
+  color: #025157;
+  font-size: 2.2rem;
+}
+
+.cliente h3 {
+  color: #025157;
+  font-size: 1.6rem;
+}
+
+.cliente button {
+  background: #025157;
+  color: white;
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+  border: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+
 @media screen and (max-width: 1018px) {
+  /*Inicio Estilos barra de navegacion/header */
   .header {
-    position: static;
+    /* position: static; */
   }
 
   .header > *, .nav-menu li {
@@ -104,4 +242,5 @@ nav {
     padding-right: 0.5rem;
     margin-top: 1.7rem;
   }
+  /*Final Estilos barra de navegacion/header */
 }
