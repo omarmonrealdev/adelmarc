@@ -79,11 +79,10 @@ nav {
 
 /*Inicio Estilos bloque de publicidad*/
 .publicidad {
-  margin: 3rem auto;
+  margin: 23rem auto 0 auto;
   width: 70%;
   display: flex;
   align-items: center;
-  margin-top: 23rem;
 }
 
 .videopub {
@@ -175,7 +174,6 @@ nav {
   align-self: center;
 }
 
-
 .cliente {
   margin-left: 3rem;
   width: 20%;
@@ -249,4 +247,41 @@ nav {
     margin-top: 1.7rem;
   }
   /*Final Estilos barra de navegacion/header */
+  .publicidad {
+    margin: 5rem auto 0 auto;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .growing {
+    flex-direction: column;
+    align-items: center;
+  } 
+
+  .growdesc {
+    width: 70%;
+    margin-right: 0;
+  }
+  
+  .cliente {
+    margin-top: 7rem;
+    margin-left: 0rem;
+    width: 90%;
+    display: flex;
+  }
+
+  .cliente-imagen {
+    width: 80%;
+    margin-right: 3rem;
+  }
+
+  .cliente-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10rem;
+  }
+  
+  
+  
 }
