@@ -282,6 +282,21 @@ nav {
     margin-bottom: 10rem;
   }
   
+  .cliente-description h2 {
+    font-size: 3.2rem;
+  }
   
-  
+  .cliente-description h3 {
+    font-size: 2.4rem;
+  }
+
+  .cliente-description p {
+    font-size: 1.5rem;
+  }
+
+  .cliente-description button {
+    font-size: 2rem;
+    width: 70%;
+    align-self: center;
+  }
 }
