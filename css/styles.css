@@ -340,8 +340,18 @@ nav {
   .publicidad {
     margin: 5rem auto 0 auto;
     flex-direction: column;
-    width: 60%;
+    width: 90%;
   }
+
+  .videopub {
+    margin-right: 0;
+  }
+
+  .videopub, .videopub video {
+    width: 100%;
+  }
+
+  
 
   /*EStilos Growing*/
   .growing {
@@ -395,6 +405,7 @@ nav {
   /*Estilos features GRID*/
   .features {
     grid-template: none;
+    padding: 5rem 5rem;
   }
 
   /*Estilos how works grid*/
@@ -422,6 +433,7 @@ nav {
 @media screen and (max-width: 720px) {
   .features {
     grid-template-columns: 1fr;
+    padding: 5rem 0rem
   }
 
   .feature-card {
@@ -429,6 +441,13 @@ nav {
     align-items: center;
   }
 
+  .feature-card .feature-description {
+    width: 85%;
+  }
+
+  .how-work {
+    padding: 3rem 2rem
+  }
   .how-work .how-work-grid {
     grid-template-columns: 1fr;
   }
